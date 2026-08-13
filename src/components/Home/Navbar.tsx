@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
+    { name: "About", href: "/Home/about" },
   ];
 
   const companyItems = [
@@ -60,7 +60,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden sm:block leading-none">
-            <p className="text-[13px] font-semibold tracking-[0.32em] text-white">
+            <p className=" font-semibold tracking-[0.32em] text-white">
               DAWSON <span className="text-cyan-300">WELLS</span>
             </p>
 
@@ -225,7 +225,7 @@ const Navbar = () => {
           {/* Search */}
           <Link
             href="/search"
-            className="group flex items-center gap-2 rounded-full border border-white/20 bg-black/10 px-4 py-2.5 text-xs font-medium text-white transition duration-300 hover:border-cyan-400/50 hover:bg-black/20 hover:text-cyan-400"
+            className="group flex items-center gap-2 rounded-xl border border-white/20 bg-black/10 px-4 py-2.5 text-xs font-medium text-white transition duration-300 hover:border-cyan-400/50 hover:bg-black/20 hover:text-cyan-400"
           >
             <Search
               size={15}
@@ -239,14 +239,9 @@ const Navbar = () => {
           {/* Sign Up */}
           <Link
             href="/signup"
-            className="group flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-2.5 text-xs font-semibold text-white backdrop-blur-md transition duration-300 hover:border-cyan-400 hover:bg-cyan-400 hover:text-black"
+            className="rounded-xl border border-cyan-400/60 px-5 py-2 text-sm font-medium text-cyan-300 transition-all duration-300 hover:border-cyan-300 hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_20px_rgba(34,211,238,0.25)]"
           >
             <span>Sign Up</span>
-
-            <ArrowUpRight
-              size={14}
-              className="transition duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-            />
           </Link>
         </div>
 
