@@ -19,6 +19,7 @@ const Hero = () => {
               <span className="text-[10px] uppercase tracking-[0.35em] text-cyan-300">
                 Dawson Wells Gallery
               </span>
+              <span className="h-px w-10 bg-cyan-400" />
             </div>
 
             <h1 className="text-5xl font-light leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">

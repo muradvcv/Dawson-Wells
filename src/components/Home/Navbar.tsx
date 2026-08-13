@@ -59,14 +59,17 @@ const Navbar = () => {
             />
           </div>
 
-          <div className="hidden sm:block">
-            <p className="text-[13px] font-medium tracking-[0.28em] text-white">
-              DAWSON WELLS
+          <div className="hidden sm:block leading-none">
+            <p className="text-[13px] font-semibold tracking-[0.32em] text-white">
+              DAWSON <span className="text-cyan-300">WELLS</span>
             </p>
 
-            <p className="mt-1 text-[8px] uppercase tracking-[0.38em] text-white/50">
-              Contemporary Gallery
-            </p>
+            <div className="mt-2 flex items-center gap-2">
+             
+              <p className="text-[8px] font-medium uppercase tracking-[0.34em] text-white/50">
+                Contemporary Gallery
+              </p>
+            </div>
           </div>
         </Link>
 
@@ -94,7 +97,7 @@ const Navbar = () => {
           >
             <button
               type="button"
-              className="flex items-center gap-1.5 py-2 text-[14px] font-medium tracking-wide text-white transition duration-300 hover:text-cyan-400"
+              className="group relative flex items-center gap-1.5 py-2 text-[14px] font-medium tracking-wide text-white transition-colors duration-300 hover:text-cyan-400 after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-0 after:bg-cyan-400 after:transition-all after:duration-300 after:ease-out after:content-[''] hover:after:w-full"
             >
               Company
 
@@ -107,7 +110,7 @@ const Navbar = () => {
             </button>
 
             <div
-              className={`absolute left-1/2 top-full mt-4 w-60 -translate-x-1/2 rounded-2xl border border-white/10 bg-[#080909]/90 p-2 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-2xl transition-all duration-300 ${companyOpen
+              className={`absolute left-1/2 top-full mt-8 bg-[#91A3B0]/50 w-60 -translate-x-1/2 rounded-2xl p-2 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-2xl transition-all duration-300 ${companyOpen
                   ? "visible translate-y-0 opacity-100"
                   : "invisible -translate-y-2 opacity-0"
                 }`}
@@ -137,7 +140,7 @@ const Navbar = () => {
           >
             <button
               type="button"
-              className="flex items-center gap-1.5 py-2 text-[14px] font-medium tracking-wide text-white transition duration-300 hover:text-cyan-400"
+              className="group relative flex items-center gap-1.5 py-2 text-[14px] font-medium tracking-wide text-white transition-colors duration-300 hover:text-cyan-400 after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-0 after:bg-cyan-400 after:transition-all after:duration-300 after:ease-out after:content-[''] hover:after:w-full"
             >
               Artworks
 
@@ -150,7 +153,7 @@ const Navbar = () => {
             </button>
 
             <div
-              className={`absolute left-1/2 top-full mt-4 w-56 -translate-x-1/2 rounded-2xl border border-white/10 bg-[#080909]/90 p-2 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-2xl transition-all duration-300 ${artworksOpen
+              className={`absolute left-1/2 top-full mt-8 w-56 -translate-x-1/2 rounded-2xl border border-white/10 bg-[#91A3B0]/50 p-2 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-2xl transition-all duration-300 ${artworksOpen
                   ? "visible translate-y-0 opacity-100"
                   : "invisible -translate-y-2 opacity-0"
                 }`}
@@ -180,7 +183,7 @@ const Navbar = () => {
           >
             <button
               type="button"
-              className="flex items-center gap-1.5 py-2 text-[14px] font-medium tracking-wide text-white transition duration-300 hover:text-cyan-400"
+              className="group relative flex items-center gap-1.5 py-2 text-[14px] font-medium tracking-wide text-white transition-colors duration-300 hover:text-cyan-400 after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-0 after:bg-cyan-400 after:transition-all after:duration-300 after:ease-out after:content-[''] hover:after:w-full"
             >
               Contact
 
@@ -193,7 +196,7 @@ const Navbar = () => {
             </button>
 
             <div
-              className={`absolute left-1/2 top-full mt-4 w-52 -translate-x-1/2 rounded-2xl border border-white/10 bg-[#080909]/90 p-2 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-2xl transition-all duration-300 ${contactOpen
+              className={`absolute left-1/2 top-full mt-8 w-52 -translate-x-1/2 rounded-2xl border border-white/10 bg-[#91A3B0]/50 p-2 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-2xl transition-all duration-300 ${contactOpen
                   ? "visible translate-y-0 opacity-100"
                   : "invisible -translate-y-2 opacity-0"
                 }`}
