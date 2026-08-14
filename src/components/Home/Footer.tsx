@@ -51,15 +51,15 @@ const Footer = () => {
 
   return (
     <footer
-      className="
+      className=" shadow-2xl
     relative overflow-hidden
-    bg-[#008080]
+    bg-[#044848]
     after:absolute after:inset-0
     after:bg-[repeating-linear-gradient(0deg,rgba(255,255,255,0.025)_0px,rgba(255,255,255,0.025)_1px,transparent_1px,transparent_4px)]
     after:pointer-events-none
   "
     >
-      <div className="pointer-events-none absolute -left-32 top-10 h-72 w-72 rounded-full bg-cyan-400/10 blur-[120px]" />
+      <div className="pointer-events-none absolute -left-32 top-10 h-72 w-72 rounded-full bg-cyan-400/10 blur-[120px] shadow-2xl" />
       <div className="pointer-events-none absolute -right-32 bottom-0 h-72 w-72 rounded-full bg-cyan-400/10 blur-[120px]" />
 
       <div className="relative mx-auto max-w-8xl px-6 py-14 lg:px-10">

@@ -20,21 +20,21 @@ const Navbar = () => {
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/Home/about" },
+    { name: "About", href: "/home/about" },
   ];
 
   const companyItems = [
-    { name: "Mission & Vision", href: "/mission-vision" },
-    { name: "Company Overview", href: "/company-overview" },
-    { name: "News & Updates", href: "/news" },
+    { name: "Mission & Vision", href: "/home/company/mission" },
+    { name: "Company Overview", href: "/home/company/company-overview" },
+    { name: "News & Updates", href: "/home/company/news" },
   ];
 
   const artworksItems = [
-    { name: "Photography", href: "/artworks/photography" },
-    { name: "Paintings", href: "/artworks/paintings" },
-    { name: "Drawings", href: "/artworks/drawings" },
-    { name: "Ceramics", href: "/artworks/ceramics" },
-    { name: "Prints", href: "/artworks/prints" },
+    { name: "Photography", href: "/home/artworks/photography" },
+    { name: "Paintings", href: "/home/artworks/paintings" },
+    { name: "Drawings", href: "/home/artworks/drawings" },
+    { name: "Ceramics", href: "/home/artworks/ceramics" },
+    { name: "Prints", href: "/home/artworks/prints" },
   ];
 
   const contactItems = [
