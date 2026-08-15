@@ -2,7 +2,7 @@ import React from 'react';
 
 const News = () => {
   return (
-    <div>
+    <div className='common-section-bg'>
       news
     </div>
   );

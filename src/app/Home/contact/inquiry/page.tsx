@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Mission = () => {
+const Inquiry = () => {
   return (
     <div className='common-section-bg'>
-      mission
+      inqury
     </div>
   );
 };
 
-export default Mission;
+export default Inquiry;

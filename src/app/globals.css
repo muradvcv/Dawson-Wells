@@ -1,1 +1,21 @@
 @import "tailwindcss";
+.common-section-bg {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background-color: #074e4e;
+  overflow: hidden;
+}
+
+.common-section-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(0deg,
+      rgba(255, 255, 255, 0.025) 0px,
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px,
+      transparent 4px);
+}

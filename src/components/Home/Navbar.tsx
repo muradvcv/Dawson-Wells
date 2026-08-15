@@ -38,8 +38,8 @@ const Navbar = () => {
   ];
 
   const contactItems = [
-    { name: "Inquiry", href: "/contact/inquiry" },
-    { name: "Contact Form", href: "/contact" },
+    { name: "Inquiry", href: "/home/contact/inquiry" },
+    { name: "Contact Form", href: "/home/contact/contact" },
   ];
 
   return (

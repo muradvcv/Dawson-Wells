@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ceramics = () => {
   return (
-    <div>
+    <div className='common-section-bg'>
       ceramics
     </div>
   );

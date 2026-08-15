@@ -2,7 +2,7 @@ import React from 'react';
 
 const CompanyOverview = () => {
   return (
-    <div>
+    <div className='common-section-bg'>
       company overview
     </div>
   );
